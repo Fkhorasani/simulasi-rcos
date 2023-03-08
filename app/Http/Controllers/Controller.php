@@ -12,7 +12,21 @@ class Controller extends BaseController
 
     public function home(){
         return view('cms.home',[
-            'title' => 'Home',
+            'title' => 'Home - RCOS UMN',
+            'active' => 'home'
+        ]);
+    }
+
+    public function admin(){
+        return view('login.admin',[
+            'title' => 'Admin',
+            'active' => 'home'
+        ]);
+    }
+
+    public function dosen(){
+        return view('login.dosen',[
+            'title' => 'Dosen',
             'active' => 'home'
         ]);
     }

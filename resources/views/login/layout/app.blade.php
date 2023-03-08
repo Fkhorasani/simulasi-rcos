@@ -15,16 +15,12 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    {{-- Navbar --}}
-    <link href="{{ asset('css/navbar.css') }}" rel="stylesheet"/>
-
     <!-- Custom CSS -->
     @yield('styles')
   </head>
   <body>
-    @include("cms.layout.navbar")
     @yield('content')
-    @include('cms.layout.footer')
+
     
 
     <!-- Custom JS -->

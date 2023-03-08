@@ -18,4 +18,6 @@ use App\Http\Controllers\Controller;
 //     return view('welcome');
 // });
 
+Route::get('/admin', [Controller::class, 'admin'])->name('admin');
+Route::get('/dosen', [Controller::class, 'dosen'])->name('dosen');
 Route::get('/', [Controller::class, 'home'])->name('home');
