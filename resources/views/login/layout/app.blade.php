@@ -18,7 +18,7 @@
     <!-- Custom CSS -->
     @yield('styles')
   </head>
-  <body>
+  <body class="overflow-x-hidden">
     @yield('content')
 
     
