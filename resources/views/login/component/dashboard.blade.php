@@ -1,4 +1,4 @@
-<div id="content" class="h-screen bg-slate-300 ml-16 pt-6 transition-all duration-500 min-h-[100dvh]">
+<div id="content" class="mt-16 h-screen bg-slate-300 ml-16 pt-6 transition-all duration-500 min-h-[100dvh]">
     <div id="Dashboardlogo" class="h-20 w-200 flex justify-left">
         <div class="h-20 w-20 ml-11 flex justify-center items-center">
             {{-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 512 512">
