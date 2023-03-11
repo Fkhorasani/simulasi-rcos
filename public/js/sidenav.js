@@ -5,21 +5,21 @@ const toggleSideNav = () => {
     const content = document.getElementById("content");
     const descnav = document.querySelectorAll("#descnav");
 
-    navBurger.classList.toggle("translate-x-40");
+    navBurger.classList.toggle("translate-x-56");
 
     if (nav.classList.contains("w-16")) {
         nav.classList.remove("w-16");
-        nav.classList.add("w-40");
+        nav.classList.add("w-56");
     } else {
-        nav.classList.remove("w-40");
+        nav.classList.remove("w-56");
         nav.classList.add("w-16");
     }
 
     if (navTitle.classList.contains("-left-40")) {
         navTitle.classList.remove("-left-40");
-        navTitle.classList.add("left-4");
+        navTitle.classList.add("left-12");
     } else {
-        navTitle.classList.remove("left-4");
+        navTitle.classList.remove("left-12");
         navTitle.classList.add("-left-40");
     }
 
@@ -35,9 +35,24 @@ const toggleSideNav = () => {
 
     if (content.classList.contains("ml-16")) {
         content.classList.remove("ml-16");
-        content.classList.add("ml-40");
+        content.classList.add("md:ml-56");
     } else {
-        content.classList.remove("ml-40");
+        content.classList.remove("md:ml-56");
         content.classList.add("ml-16");
     }
 };
+
+function toggleSideDropdown() {
+    const navDropdown = document.getElementById("sideDropdown");
+    const arrow = document.getElementById("dropdownArrow");
+
+    if (navDropdown.classList.contains("max-h-16")) {
+        navDropdown.classList.remove("max-h-16");
+        navDropdown.classList.add("max-h-0");
+    } else {
+        navDropdown.classList.remove("max-h-0");
+        navDropdown.classList.add("max-h-16");
+    }
+
+    arrow.classList.toggle("rotate-180");
+}
