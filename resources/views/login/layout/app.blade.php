@@ -15,6 +15,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="https://rcos.umn.ac.id/css/font-awesome.css" type="text/css" media="all">
+
     <!-- Custom CSS -->
     @yield('styles')
   </head>

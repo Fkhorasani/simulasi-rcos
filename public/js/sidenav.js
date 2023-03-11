@@ -15,12 +15,12 @@ const toggleSideNav = () => {
         nav.classList.add("w-16");
     }
 
-    if (navTitle.classList.contains("-left-24")) {
-        navTitle.classList.remove("-left-24");
+    if (navTitle.classList.contains("-left-40")) {
+        navTitle.classList.remove("-left-40");
         navTitle.classList.add("left-4");
     } else {
         navTitle.classList.remove("left-4");
-        navTitle.classList.add("-left-24");
+        navTitle.classList.add("-left-40");
     }
 
     descnav.forEach((e) => {

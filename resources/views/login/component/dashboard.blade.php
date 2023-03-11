@@ -1,20 +1,31 @@
 <div id="content" class="bg-slate-300 ml-16 pt-6 transition-all duration-500 min-h-[100dvh] overflow-y-auto">
-    <div id="Dashboardlogo" class="h-20 w-200 flex justify-left mt-24">
-        <div class="h-20 w-20 ml-11 flex justify-center items-center">
-            {{-- <svg xmlns="http://www.w3.org/2000/svg" width="70" height="70" viewBox="0 0 512 512">
-                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M80 212v236a16 16 0 0 0 16 16h96V328a24 24 0 0 1 24-24h80a24 24 0 0 1 24 24v136h96a16 16 0 0 0 16-16V212"/>
-                <path fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32" d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256m368-77V64h-48v69"/>
-            </svg> --}}
-            <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" width="70" height="70" viewBox="0 0 512 512"><title>Home</title><path d="M80 212v236a16 16 0 0016 16h96V328a24 24 0 0124-24h80a24 24 0 0124 24v136h96a16 16 0 0016-16V212" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256M400 179V64h-48v69" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+    <div id="Dashboardlogo" class="w-full px-6 grid grid-cols-2 mt-24">
+        <div class="col-span-2 md:col-span-1 flex justify-start">
+            <div class="h-20 w-20 flex justify-center items-center">
+                <svg xmlns="http://www.w3.org/2000/svg" class="ionicon" width="70" height="70" viewBox="0 0 512 512"><title>Home</title><path d="M80 212v236a16 16 0 0016 16h96V328a24 24 0 0124-24h80a24 24 0 0124 24v136h96a16 16 0 0016-16V212" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/><path d="M480 256L266.89 52c-5-5.28-16.69-5.34-21.78 0L32 256M400 179V64h-48v69" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="32"/></svg>
+            </div>
+            <div class="w-36">
+                <p class="h-10 font-bold text-2xl ml-4 flex items-center">Dashboard</p>
+                <p class="h-10 ml-4 flex items-center">Welcome, Dosen</p>
+            </div>
         </div>
-        <div class="w-36">
-            <p class="h-10 font-bold text-2xl ml-4 flex items-center">Dashboard</p>
-            <p class="h-10 ml-4 flex items-center">Welcome, Dosen</p>
+        <div class="col-span-2 md:col-span-1 flex justify-left md:justify-end">
+            <div class="bg-[#17a2b8] w-full h-[15dvh] md:w-[20dvw] md:h-[12dvh] flex flex-row justify-center items-center rounded-md mx-2 mt-8 md:mt-0">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-20 w-20 text-slate-600" viewBox="0 0 20 20" fill="currentColor">
+                        <path fill-rule="evenodd" d="M16.707 5.293a1 1 0 010 1.414l-8 8a1 1 0 01-1.414 0l-4-4a1 1 0 011.414-1.414L8 12.586l7.293-7.293a1 1 0 011.414 0z" clip-rule="evenodd"></path>
+                    </svg>
+                </div>
+                <div class="flex flex-col text-slate-200 align-left pl-4">
+                    <span class="text-lg font-semi-bold">Need to Review</span>
+                    <span class="text-xl font-bold">0</span>
+                </div>
+            </div>
         </div>
     </div>
 
     <div class="p-8 mt-6">
-        <div class="bg-white shadow-sm shadow-gray-600 rounded-3xl p-16 w-full">
+        <div class="bg-white shadow-sm shadow-gray-600 rounded-3xl px-6 pt-6 pb-16 md:px-16 md:pt-16 md:pb-16 w-full">
             <div class="h-fit">
                 <div class="font-semibold text-xl text-center py-4">
                     Jadwal Proses Penelitian Internal Half Term
@@ -174,11 +185,21 @@
                                 <div class="text-slate-500 mb-6">
                                     Pengumpulan Laporan
                                 </div>
-                            </div>
+                            </div> 
                         </div>
                     </div>
                 </div>
             </div>
+            {{-- <div class="mt-12 flex flex-col">
+                <div class="font-bold text-2xl">Info</div>
+                <div class="bg-[#17a2b8] w-[40dvw] h-[15dvh] md:w-[20dvw] md:h-[12dvh] mt-2 flex flex-row justify-center items-center">
+                    <span class="text-6xl">&#10004</span>
+                    <div class="flex flex-col text-white align-left pl-4">
+                        <span class="text-lg font-light">Need to Review</span>
+                        <span class="text-xl font bold">0</span>
+                    </div>
+                </div>
+            </div> --}}
         </div>
     </div>
 </div>
