@@ -4,6 +4,7 @@ const toggleSideNav = () => {
     const navBurger = document.getElementById("burger");
     const content = document.getElementById("content");
     const descnav = document.querySelectorAll("#descnav");
+    const navDropdown = document.getElementById("sideDropdown");
 
     navBurger.classList.toggle("translate-x-56");
 
@@ -46,12 +47,20 @@ function toggleSideDropdown() {
     const navDropdown = document.getElementById("sideDropdown");
     const arrow = document.getElementById("dropdownArrow");
 
-    if (navDropdown.classList.contains("max-h-16")) {
-        navDropdown.classList.remove("max-h-16");
+    if (navDropdown.classList.contains("max-h-96")) {
+        navDropdown.classList.remove("max-h-96");
         navDropdown.classList.add("max-h-0");
     } else {
         navDropdown.classList.remove("max-h-0");
-        navDropdown.classList.add("max-h-16");
+        navDropdown.classList.add("max-h-96");
+    }
+
+    if (navDropdown.classList.contains("opacity-0")) {
+        navDropdown.classList.remove("opacity-0");
+        navDropdown.classList.add("opacity-100");
+    } else {
+        navDropdown.classList.add("opacity-0");
+        navDropdown.classList.remove("opacity-100");
     }
 
     arrow.classList.toggle("rotate-180");
