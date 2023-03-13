@@ -9,14 +9,14 @@
     
     <!-- Tailwind CSS -->
     <script src="https://cdn.tailwindcss.com"></script>
+    <link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/tw-elements/dist/css/index.min.css" />
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 
     <!-- AOS -->
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-
-    <!-- Font awesome -->
-    <link rel="stylesheet" href="https://rcos.umn.ac.id/css/font-awesome.css" type="text/css" media="all">
 
     <!-- Custom CSS -->
     @yield('styles')
@@ -29,6 +29,6 @@
     <!-- Custom JS -->
     @yield('scripts')
 
-
+    <script src="https://cdn.jsdelivr.net/npm/tw-elements/dist/js/index.min.js"></script>
   </body>
 </html>

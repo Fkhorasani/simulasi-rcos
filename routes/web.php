@@ -19,5 +19,9 @@ use App\Http\Controllers\Controller;
 // });
 
 Route::get('/admin', [Controller::class, 'admin'])->name('admin');
-Route::get('/dosen', [Controller::class, 'dosen'])->name('dosen');
+Route::get('/dosen', [Controller::class, 'dosenDashboard'])->name('dosen');
+Route::get('/dosen/dashboard', [Controller::class, 'dosenDashboard'])->name('dosenDashboard');
+Route::get('/dosen/proposalPenelitian', [Controller::class, 'dosenProposalPenelitian'])->name('dosenProposalPenelitian');
+Route::get('/dosen/review', [Controller::class, 'dosenReview'])->name('dosenReview');
+Route::get('/dosen/dokumenPendukung', [Controller::class,'dosenDokumenPendukung'])->name('dosenDokumenPendukung');
 Route::get('/', [Controller::class, 'home'])->name('home');
