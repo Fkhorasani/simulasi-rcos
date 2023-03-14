@@ -109,8 +109,12 @@
                         <div class="lg:w-10/12">
                             <select id="countries" class="mb-2 bg-gray-200 border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                                 <option selected>Pilih Kataegori Bidang Penelitian</option>
-                                <option value="">Mobile Development</option>
-                                <option value="">Control System & Industrial Automation</option>
+                                <option value="">Natural Science</option>
+                                <option value="">Engineering And Technology</option>
+                                <option value="">Agricultural And Environmental Sciences</option>
+                                <option value="">Medical Sciences</option>
+                                <option value="">Social Sciences</option>
+                                <option value="">Humanities</option>
                             </select>
                             <select id="countries" class="mb-2 bg-gray-200 lg:mt-4 border-2 border-gray-200 rounded w-full py-2 px-4 text-gray-700 leading-tight focus:outline-none focus:bg-white focus:border-gray-500">
                                 <option selected>Pilih Bidang Penelitian</option>
