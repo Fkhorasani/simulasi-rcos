@@ -19,9 +19,17 @@ use App\Http\Controllers\Controller;
 // });
 
 Route::get('/admin', [Controller::class, 'admin'])->name('admin');
-Route::get('/dosen', [Controller::class, 'dosenDashboard'])->name('dosen');
-Route::get('/dosen/dashboard', [Controller::class, 'dosenDashboard'])->name('dosenDashboard');
-Route::get('/dosen/proposalPenelitian', [Controller::class, 'dosenProposalPenelitian'])->name('dosenProposalPenelitian');
-Route::get('/dosen/review', [Controller::class, 'dosenReview'])->name('dosenReview');
-Route::get('/dosen/dokumenPendukung', [Controller::class,'dosenDokumenPendukung'])->name('dosenDokumenPendukung');
+Route::group(['prefix' => 'dosen'],function(){
+    Route::get('/', [Controller::class, 'dosenDashboard'])->name('dosen');
+    Route::get('/dashboard', [Controller::class, 'dosenDashboard'])->name('dosenDashboard');
+    Route::get('/proposalPenelitian', [Controller::class, 'dosenProposalPenelitian'])->name('dosenProposalPenelitian');
+    Route::get('/review', [Controller::class, 'dosenReview'])->name('dosenReview');
+    Route::get('/dokumenPendukung', [Controller::class,'dosenDokumenPendukung'])->name('dosenDokumenPendukung');
+    Route::get('/ListProposalInternal', [Controller::class,'ListProposalInternal'])->name('ListProposalInternal');
+    Route::get('/pengajuanAnggaran', [Controller::class,'pengajuanAnggaran'])->name('pengajuanAnggaran');
+    Route::get('/pengajuanBuku', [Controller::class,'pengajuanBuku'])->name('pengajuanBuku');
+    Route::get('/penelitianMandiri', [Controller::class,'dosenPenelitianMandiri'])->name('dosenPenelitianMandiri');
+    Route::get('/pengajuanPembelian',[Controller::class,'dosenPengajuanPembelian'])->name('dosenPengajuanPembelian');
+    Route::get('/laporanPemantauan',[Controller::class,'dosenLaporanPemantauan'])->name('dosenLaporanPemantauan');
+});
 Route::get('/', [Controller::class, 'home'])->name('home');
