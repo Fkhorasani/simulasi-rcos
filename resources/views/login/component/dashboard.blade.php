@@ -27,13 +27,13 @@
     <div class="p-8 mt-6">
         <div class="bg-white shadow-sm shadow-gray-600 rounded-3xl px-6 pt-6 pb-16 md:px-16 md:pt-16 md:pb-16 w-full">
             <div class="h-fit">
-                <div class="font-semibold text-xl text-center py-4">
+                <div class="font-semibold text-base md:text-xl text-center py-4">
                     Jadwal Proses Penelitian Internal Half Term
                 </div>
                 <hr />
                 <div class="mt-8 grid grid-cols-2">
                     <div class="col-span-2 md:col-span-1">
-                        <div class="text-center mb-4 text-slate-500 font-semibold">
+                        <div class="text-center text-sm md:text-base mb-4 text-slate-500 font-semibold">
                             <div class="mb-4">Full Term</div>
                             <hr />
                         </div>
@@ -44,7 +44,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     28 Januari 2023
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Batas Penerimaan Proposal
                                 </div>
                             </div>
@@ -54,7 +54,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     6 - 10 Februari 2023
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Review Proposal
                                 </div>
                             </div>
@@ -64,7 +64,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     15 - 17 Februari 2023
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Seminar Proposal
                                 </div>
                             </div>
@@ -74,7 +74,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     20 - 24 Februari 2023
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Kontrak Penelitian
                                 </div>
                             </div>
@@ -84,7 +84,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     10 - 14 Juli 2023
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Monitoring dan Evaluasi Pertama - Skema Full Term dan Half Term
                                 </div>
                             </div>
@@ -94,7 +94,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     7 - 11 November 2023
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Monitoring dan Evaluasi Kedua - Skema Full Term dan Half Term
                                 </div>
                             </div>
@@ -104,7 +104,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     30 November 2023
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Pengumpulan Laporan
                                 </div>
                             </div>
@@ -122,7 +122,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     TBA
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Batas Penerimaan Proposal
                                 </div>
                             </div>
@@ -132,7 +132,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     TBA
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Review Proposal
                                 </div>
                             </div>
@@ -142,7 +142,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     TBA
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Seminar Proposal
                                 </div>
                             </div>
@@ -152,7 +152,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     TBA
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Kontrak Penelitian
                                 </div>
                             </div>
@@ -162,7 +162,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     TBA
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Monitoring dan Evaluasi Pertama - Skema Full Term dan Half Term
                                 </div>
                             </div>
@@ -172,7 +172,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     TBA
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Monitoring dan Evaluasi Kedua - Skema Full Term dan Half Term
                                 </div>
                             </div>
@@ -182,7 +182,7 @@
                                 <div class="absolute -top-[1.3rem] font-semibold text-slate-600">
                                     TBA
                                 </div>
-                                <div class="text-slate-500 mb-6">
+                                <div class="text-slate-500 mb-6 text-xs md:text-base">
                                     Pengumpulan Laporan
                                 </div>
                             </div> 
