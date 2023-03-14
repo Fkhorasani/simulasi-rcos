@@ -12,7 +12,7 @@
             </div>
             <div class="w-full">
                 <p class="h-10 font-bold text-lg md:text-2xl ml-4 flex items-center">Dokumen Pendukung</p>
-                <p class="h-10 ml-4 text-xs md:text-md"><span class="text-sky-700 hover:text-sky-900 transition-all duration-300"><a href="{{ route('dosenDashboard') }}">Dashboard</a></span> &nbsp; / Dokumen Pendukung</p>
+                <p class="h-10 ml-4 text-xs md:text-base"><span class="text-sky-700 hover:text-sky-900 transition-all duration-300"><a href="{{ route('dosenDashboard') }}">Dashboard</a></span> &nbsp; / Dokumen Pendukung</p>
             </div>
         </div>
     </div>
@@ -20,14 +20,14 @@
         <div id='recipients' class="bg-white shadow-sm shadow-gray-600 rounded-3xl px-6 pt-6 pb-16 md:px-16 md:pt-16 md:pb-16 w-full">
             {{-- <p class="text-3xl mb-10"><b>Dokumen Pendukung</b></p> --}}
             <table id="example" class="stripe border hover" style="width:100%;">
-                <thead>
+                <thead class="text-sm md:text-lg">
                     <tr class="border"></tr>
                         <th data-priority="1" class="border text-left">#</th>
                         <th data-priority="2" class="border text-left">TITLE</th>
                     </tr>
                 </thead>
-                <tbody>
-                    <tr class="border dark:bg-neutral-200">
+                <tbody class="text-xs md:text-base">
+                    <tr class="border">
                         <td class="border">1.</td>
                         <td class="border">
                             <!-- <a href="{{asset('document/Panduan.pdf')}}" download="Panduan">Panduan Penulisan Proposal dan Pertanggungjawaban</a> -->
