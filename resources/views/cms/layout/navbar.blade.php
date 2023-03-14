@@ -9,7 +9,7 @@
         <span></span>
       </label>
       <nav class="w-full flex flex-col md:flex-row align-items-center md:justify-around menu__box">
-          <div class="font-bold text-md menu__item flex md:flex-row flex-col text-center justify-center align-items-center">
+          <div class="font-bold text-base menu__item flex md:flex-row flex-col text-center justify-center align-items-center">
             <a href="" class="link">Home</a>
             <a href="" class="link my-2 md:my-0 md:ml-4">Login</a> 
             <a href="https://umn.ac.id" class="md:ml-4 px-8 py-2 border-solid border-2 umn">Universitas Multimedia Nusantara</a>
