@@ -12,7 +12,7 @@
             </div>
             <div class="w-full">
                 <p class="h-10 font-bold text-lg md:text-2xl ml-4 flex items-center">Review</p>
-                <p class="h-10 ml-4 text-xs md:text-md"><span class="text-sky-700 hover:text-sky-900 transition-all duration-300"><a href="{{ route('dosenDashboard') }}">Dashboard</a></span> &nbsp; / Reviews</p>
+                <p class="h-10 ml-4 text-xs md:text-base"><span class="text-sky-700 hover:text-sky-900 transition-all duration-300"><a href="{{ route('dosenDashboard') }}">Dashboard</a></span> &nbsp; / Reviews</p>
             </div>
         </div>
     </div>
@@ -21,15 +21,15 @@
             {{-- <div class="flex md:flex-row flex-col justify-between mb-4">
                 <p class="h-auto mb-3 font-bold text-3xl md:text-xl flex items-center">Review</p>
             </div> --}}
-            <table id="example" class="stripe border hover font-bold" style="width:100%;">
-                <thead>
-                    <tr class="border"></tr>
+            <table id="example" class="stripe border hover" style="width:100%;">
+                <thead class="text-sm md:text-lg">
+                    <tr class="border font-bold"></tr>
                         <th data-priority="1" class="border">#</th>
                         <th data-priority="2" class="border">Title</th>
                         <th data-priority="3" class="border">Status</th>
                     </tr>
                 </thead>
-                <tbody>
+                <tbody class="text-xs md:text-base">
                     <tr class="border dark:bg-neutral-200">
                         <td class="border">1.</td>
                         <td class="border">Test</td>
